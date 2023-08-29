@@ -16,3 +16,8 @@ Q. linux distribution type?
   
 List of shells: 
   cat /etc/shells
+
+what is shell scripting?
+- Shell Script consist of set of commands to perform a task.
+- All the commands execute sequentially.
+- some task like file manipulation, program execution, user interaction, automation of task etc can be done.
