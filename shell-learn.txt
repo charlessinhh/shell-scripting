@@ -21,16 +21,25 @@ what is shell scripting?
 - some task like file manipulation, program execution, user interaction, automation of task etc can be done.
 
 
-what is shebang? '#!/bin/bash'
+what is shebang?   
+#!/bin/bash
 
 How to run a script..
 - script has execute permission "rwx"
+-- chmod +x script.sh
+
 - run using 
 -- ./script.sh
-
 -- /path/script.sh
-
--- bash script.sh
+-- bash script.sh   --> without giving rwx permission
 
 - ctrl+c to terminate
 - ctrl+z to stop
+
+What is variables?
+var_name=value
+
+constant variable
+- readonly college="bcet"
+
+Arrays..

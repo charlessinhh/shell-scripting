@@ -1,2 +1,2 @@
 # shell-scripting
-
+#!/bin/bash
