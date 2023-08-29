@@ -14,5 +14,5 @@ Q. what is my shell type?
 Q. linux distribution type?
   cat /etc/os-release
   
-List of shells
+List of shells: 
   cat /etc/shells
