@@ -43,3 +43,12 @@ constant variable
 - readonly college="bcet"
 
 Arrays..
+
+
+operators ---->>>>
+Equal                    -eq/==
+GreaterThanOrEqualTo     -ge 
+LessThanOrEqualTo        -le 
+Not Equal                -ne/!=
+Greater than             -gt 
+Less Than                -lt 
