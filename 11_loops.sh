@@ -8,7 +8,7 @@ do
 done
 
 #reading file and print item
-items = "/home/ubuntu/shell-learn/file.txt"
+items = "/home/ubuntu/shell-learnt/file.txt"
 
 for item in $(cat $items)
 do
@@ -48,9 +48,41 @@ do
 done
 
 
-#INFINITE loop
+#INFINITE loop using WHILE
 while true
 do 
-    echo "Hi"
+    echo "Hi buddy While Loop"
+    sleep 1s
+done
+
+#INFINITE loop using FOR
+
+for (( ;; ))
+do 
+    echo "Hi man For Loop"
     sleep 2s
+done
+
+#Read file data, content from a file using while loop
+
+while read fileData
+do  
+    echo "Value from file is $fileData" 
+done < /home/ubuntu/shell-learnt/file.txt
+
+#To read content from a csv file 
+#delimiter ','  or IFS=',' internal field separator
+while IFS="," read id name age
+do 
+    echo "Id is $id"
+    echo "name is $name"
+    echo "age is $age"
+done < test.csv
+
+#do not want first row with cloumns name as id ,age, name then use below
+cat test.csv | awk 'NR!=1 {print}' | while IFS="," read id name age  #NR! not row 
+do 
+    echo "Id is $id"
+    echo "name is $name"
+    echo "age is $age"
 done
