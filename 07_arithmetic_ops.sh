@@ -4,7 +4,7 @@
 x=10
 y=2
 
-#mul=$x*$y is wrong,,it will print value of x & y only
+#     mul=$x*$y is wrong,,it will print value of x & y only
 
 #using let command
 let mul=$x*$y
