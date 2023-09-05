@@ -86,3 +86,34 @@ do
     echo "name is $name"
     echo "age is $age"
 done
+
+
+#break - to stop the loop
+
+#if given no found break the loop
+no=6
+for i in 1 2 3 4 5 6 7 8
+do
+    #break the loop if 6 found
+    if [[ $no -eq $i ]]
+    then
+        echo "No found"
+        break
+    fi
+    echo "Number is $i"
+done
+
+
+#continue - to stop the current iteration of loop and start next iteration
+
+#print only odd numbers 
+for i in 1 2 3 4 5 6 7 8 
+do 
+    let r=$i%2
+    if [[ $r -eq 0 ]]
+    then 
+        continue
+    fi
+    echo "Odd nuber is $i"
+done
+
