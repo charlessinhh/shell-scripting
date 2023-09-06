@@ -74,3 +74,13 @@ if [[ ! -d folder_name ]] if folder does not exists
 if [[ -f filename ]] if file exists
 if [[ ! -f filename ]] if file not exists
 
+
+#re-dorection topic 
+
+What is /dev/null ?
+In case if you dont want to print the output of a command on terminal or write in a file,
+we can redirect the output to /dev/null
+
+Exp:
+#cd /root/ &> /dev/null
+#ping -c 1 fb.com &> /dev/null
