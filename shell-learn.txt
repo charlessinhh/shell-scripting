@@ -84,3 +84,6 @@ we can redirect the output to /dev/null with &>
 Exp:
 #cd /root/ &> /dev/null
 #ping -c 1 fb.com &> /dev/null
+
+Print NAMe of the script
+#echo "the name of the script is ${0}"
