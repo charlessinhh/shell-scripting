@@ -67,3 +67,10 @@ realpath - gives you full path for a file
 # realpath test.csv
 #output will be dirname+basename 
 
+Check if File/directory exist
+if [[ -d folder_name ]]  if folder exists
+if [[ ! -d folder_name ]] if folder does not exists
+
+if [[ -f filename ]] if file exists
+if [[ ! -f filename ]] if file not exists
+
