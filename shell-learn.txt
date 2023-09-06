@@ -79,7 +79,7 @@ if [[ ! -f filename ]] if file not exists
 
 What is /dev/null ?
 In case if you dont want to print the output of a command on terminal or write in a file,
-we can redirect the output to /dev/null
+we can redirect the output to /dev/null with &> 
 
 Exp:
 #cd /root/ &> /dev/null
