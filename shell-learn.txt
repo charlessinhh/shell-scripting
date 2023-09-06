@@ -52,3 +52,18 @@ LessThanOrEqualTo        -le
 Not Equal                -ne/!=
 Greater than             -gt 
 Less Than                -lt 
+
+basename - strip directory info and only give filename
+# basename /home/abc/def/file.txt
+#file.txt in output
+
+
+dirname - strip the flename and gives directory path
+# dirname /home/abc/def/file.txt
+#/home/abc/def in output
+
+
+realpath - gives you full path for a file
+# realpath test.csv
+#output will be dirname+basename 
+

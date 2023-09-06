@@ -117,3 +117,20 @@ do
     echo "Odd nuber is $i"
 done
 
+#SLEEP - to create delay between two executions ex: sleep 1s/1m
+
+#exit - to stop script at a point
+
+# if [[ $# -eq 0 ]]
+# then
+#     echo "No arguments provided"
+#     exit 1
+# fi
+
+
+#exit status $? - gives you status of previoud command if that was successful
+#if $? is 0 means success else fail
+#using this $? in connectivityCheck script
+
+
+
