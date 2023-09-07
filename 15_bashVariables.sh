@@ -2,7 +2,7 @@
 
 #random - A random integer between 0 and 32767
 echo $RANDOM
-
+    
 #UID - uid for logged in user ,,root use has UID as 0
 echo $UID
 
