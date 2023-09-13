@@ -1,0 +1,27 @@
+automation of our scripts
+
+Using 'At' or 'Crontab'
+
+For scheduling only one time , use At
+
+at 12:09 PM
+    <our_commands>  -> bash /home/charles/myscripts.sh 
+ctrl+D
+
+
+atq to check scheduled job
+atrm <id> to remove the schedule 
+
+For repeatative ,,means every monday in the morning 9 AM or friday 6PM so one,
+use crontab
+
+to check the existing jobs -> crontab -l
+to add new jobs  -> crontab -e
+#vi editor will open ,we have to add our our_commands step by step
+#use five star ***** before commands.
+#***** represents minutes(0-59)hours(0-23)days-of-month(1-31)months(1-12)days-of-week(0-6)(sunday=0)
+
+#use crontab.guru app to get this
+16 03 *** cd /home/charles/scripts && ./myscripts.sh  -> at 3:16 AM every day this command will run
+
+ 
