@@ -36,6 +36,14 @@ How to run a script..
 - ctrl+c to terminate
 - ctrl+z to stop
 
+Enable script debugging ->  set -x
+Exit the script when command fails ->  set -e
+
+Run Script in Background or when terminal closes  
+#give executable permission to script myscript.sh and then run
+-> nohup ./myscript.sh & 
+#the output of nohup will be saved to nohup.out file in the same directory
+
 What is variables?
 var_name=value
 
