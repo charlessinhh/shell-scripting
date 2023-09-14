@@ -12,7 +12,7 @@ ctrl+D
 atq to check scheduled job
 atrm <id> to remove the schedule 
 
-For repeatative ,,means every monday in the morning 9 AM or friday 6PM so one,
+For repeatative ,,means every  onday in the morning 9 AM or friday 6PM so one,
 use crontab
 
 to check the existing jobs -> crontab -l
